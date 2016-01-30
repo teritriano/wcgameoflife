@@ -1,0 +1,19 @@
+{
+  "name": "wcgameoflife",
+  "version": "1.1.1",
+  "description": "Conway's Game of Life for nodejs (made by a wolfcat)",
+  "main": "./lib/gameOfLife.js",
+  "bin": {"wcgameoflife": "./bin/gameOfLife"},
+  "scripts": {
+    "test": "node ./bin/gameOfLife"
+  },
+  "keywords": [
+    "toy",
+    "cli",
+    "game"
+  ],
+  "author": "Oscar (.teri) Triano",
+  "license": "MIT",
+  "preferGlobal": true,
+  "repository": {"type":"git", "url":"https://github.com/teritriano/wcgameoflife.git"}
+}
